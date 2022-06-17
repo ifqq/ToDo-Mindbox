@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ToDo-Mindbox/static/css/main.02a986c1.css",
-    "main.js": "/ToDo-Mindbox/static/js/main.a29fa5f2.js",
+    "main.js": "/ToDo-Mindbox/static/js/main.60cbb2ea.js",
     "index.html": "/ToDo-Mindbox/index.html",
     "main.02a986c1.css.map": "/ToDo-Mindbox/static/css/main.02a986c1.css.map",
-    "main.a29fa5f2.js.map": "/ToDo-Mindbox/static/js/main.a29fa5f2.js.map"
+    "main.60cbb2ea.js.map": "/ToDo-Mindbox/static/js/main.60cbb2ea.js.map"
   },
   "entrypoints": [
     "static/css/main.02a986c1.css",
-    "static/js/main.a29fa5f2.js"
+    "static/js/main.60cbb2ea.js"
   ]
 }
