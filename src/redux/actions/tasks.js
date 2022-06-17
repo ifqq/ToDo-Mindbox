@@ -21,3 +21,8 @@ export const deleteTask = (taskId) => ({
 export const clearCompleted = () => ({
   type: 'CLEAR_COMPLETED',
 });
+
+export const setTasks = (tasks) => ({
+  type: 'SET_TASKS',
+  payload: tasks,
+});

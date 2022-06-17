@@ -7,8 +7,8 @@ import styles from './TaskField.module.scss';
 
 export const TaskField = () => {
   const [isError, setIsError] = React.useState(false);
-  const dispatch = useDispatch();
   const { taskField } = useSelector((state) => state.tasks);
+  const dispatch = useDispatch();
 
   const handleChangeInput = (e) => {
     if (e.target.value.length >= 3) {

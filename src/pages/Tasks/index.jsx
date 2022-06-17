@@ -6,6 +6,15 @@ function Tasks() {
   const { tasks } = useSelector((state) => state.tasks);
   const { filterBy } = useSelector((state) => state.filter);
 
+  const didMountRef = React.useRef(false);
+
+  // Сохранение в localstorage не будет работать корректно из-за React.StrictMode. (В gh-pages React.StrictMode отключен)
+  React.useEffect(() => {
+    if (didMountRef.current)
+      localStorage.setItem('tasks', JSON.stringify(tasks));
+    else didMountRef.current = true;
+  }, [tasks]);
+
   const filteredTasks = tasks.filter((obj) => {
     if (filterBy === 'completed') {
       return obj.completed;

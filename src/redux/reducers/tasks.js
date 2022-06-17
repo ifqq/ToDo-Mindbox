@@ -53,6 +53,8 @@ export function tasksReducer(state = initialState, action) {
         ...state,
         tasks: completedTask,
       };
+    case 'SET_TASKS':
+      return { ...state, tasks: action.payload };
 
     default:
       return state;
