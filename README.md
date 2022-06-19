@@ -1,4 +1,22 @@
-# Getting Started with Create React App
+# Описание задачи
+  Тестовое задание Frontend intern в Mindbox 
+ 
+  Сделайте ToDo-приложение, позволяющее управлять текущим списком дел
+  Что должно быть в интерфейсе:
+  
+  Поле для ввода новой задачи
+  Списки всех задач, невыполненных и выполненных задач (по отдельности)
+  
+  Требования к коду:
+  
+  Создано с использованием React и React Hooks
+  Библиотеки компонент – на ваше усмотрение
+  Ключевая на ваш взгляд функциональность покрыта тестами
+  Проект должен запускаться командой npm i && npm run start
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
